@@ -1,0 +1,15 @@
+.container__big-card {
+    color: #fff;
+    padding: 1rem;
+}
+
+figcaption {
+    color: #8d8c8c;
+    font-size: 12px;
+}
+
+.content__big-card {
+    color: #8d8c8c;
+    font-weight: bold;
+    margin-top: .5rem;
+}

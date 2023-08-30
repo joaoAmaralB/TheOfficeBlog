@@ -1,0 +1,24 @@
+* {
+    color: #fff;
+}
+
+.container__small-card {
+    display: flex;
+    align-items: self-start;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.text__small-card {
+    margin-left: 1rem;
+}
+
+.subtitle__small-card {
+    margin-bottom: .5rem;
+    font-size: smaller;
+    font-weight: bold;
+    color: #8d8c8c;
+}
+
+.content__small-card {
+    font-weight: bold;
+}
