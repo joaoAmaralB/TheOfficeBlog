@@ -13,3 +13,7 @@ figcaption {
     font-weight: bold;
     margin-top: .5rem;
 }
+
+.title__big-card:hover, .content__big-card:hover {
+    cursor: pointer;
+}

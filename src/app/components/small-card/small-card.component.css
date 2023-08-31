@@ -22,3 +22,7 @@
 .content__small-card {
     font-weight: bold;
 }
+
+.subtitle__small-card:hover, .content__small-card:hover {
+    cursor: pointer;
+}

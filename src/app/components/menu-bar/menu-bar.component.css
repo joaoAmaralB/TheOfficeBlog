@@ -1,7 +1,13 @@
 .container__menu-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     color: #fff;
+    list-style: none;
+}
+
+.icon-image {
+    margin: 2rem 2rem 0 2rem;
 }
 
 .social__menu-bar {

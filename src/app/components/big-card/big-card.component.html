@@ -1,19 +1,16 @@
 <div class="container__big-card">
   <figure class="image__big-card">
     <img
-      src="../../../assets/Kevin.jpg"
+      src='{{ photoCover }}'
       width="100%"
       alt="kevin dropping chilli"
     />
-    <figcaption>Chilli incident</figcaption>
+    <figcaption>{{ photoCaption }}</figcaption>
   </figure>
 
-  <h1 class="title__big-card">Kevin's Chili Mishap</h1>
+  <h1 class="title__big-card" [routerLink]="['content', id]">{{ cardTitle }}</h1>
 
-  <p class="content__big-card">
-    In the episode "Casual Friday", Kevin has a kitchen disaster during a chili
-    cook-off. While attempting to carry an enormous pot, he trips and spills
-    chili everywhere. The office descends into chaos as Kevin try to clean up
-    the mess. The incident becomes a classic comedic moment of the series.
+  <p class="content__big-card" [routerLink]="['content', id]">
+    {{ cardContent }}
   </p>
 </div>

@@ -1,12 +1,13 @@
 <div class="container__small-card">
-  <img src="../../../assets/Dinner.jpg" width="35%" alt="Dinner Party" />
+  <img src="{{ photoCover }}" width="35%" alt="{{ cardSubtitle }}" />
 
   <div class="text__small-card">
-    <p class="subtitle__small-card">Dinner Party</p>
+    <p class="subtitle__small-card" [routerLink]="['content', id]">
+      {{ cardSubtitle }}
+    </p>
 
-    <h3 class="content__small-card">
-      Michael and Jan's tense relationship takes center stage during an
-      uncomfortable gathering, capturing the show's unique humor.
+    <h3 class="content__small-card" [routerLink]="['content', id]">
+      {{ cardContent }}
     </h3>
   </div>
 </div>
